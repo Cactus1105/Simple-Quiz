@@ -1,0 +1,25 @@
+
+
+
+# Start of Quiz
+
+start = "yes"
+
+starting_awnser = input("Would you like to start the quiz: ").lower()
+if starting_awnser == start:
+    print("Starting Quiz: Please note that it is a true or false quiz, either enter True, or False.")
+    # Question: 1 (copy and paste to create new question)
+    question_1 = "True"
+    question_1awnser = input("Is this a good quiz")
+    if question_1awnser == question_1:
+        print("Correct")
+
+    else:
+        print("Incorrect, Quiz Failed.")
+
+# Paste question 1 here to create a new question
+
+
+
+else:
+    print("Quiz not started")
